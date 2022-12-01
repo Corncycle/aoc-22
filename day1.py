@@ -1,6 +1,6 @@
 import util
 
-data = util.parseFileAs("./inputs/input.txt", str)
+data = util.parseFileAs("./inputs/d1.txt", str)
 
 currMax = 0
 currHold = 0
