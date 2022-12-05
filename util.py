@@ -1,6 +1,6 @@
 def parseFileAs(filePath, dataType):
     with open(filePath) as f:
-        data = [dataType(line.strip()) for line in f]
+        data = [dataType(line.strip("\n")) for line in f]
         return data
 
 def charToNum(c):
