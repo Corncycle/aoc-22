@@ -21,7 +21,7 @@ for i, val in enumerate(data):
 out = [stack.pop() for stack in stacks]
 print("".join(out))
 
-data = util.parseFileAs("./inputs/input.txt", str)
+data = util.parseFileAs("./inputs/d5.txt", str)
 
 stacks = [[] for _ in range(9)]
 for i in reversed(range(8)):
