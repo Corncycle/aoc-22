@@ -42,6 +42,5 @@ while not (end in frontier):
                 if not (dest in visited) and not (dest in newFrontier) and heights[dest[0]]:
                     newFrontier.append(dest)
     frontier = newFrontier
-    print(steps)
 
 print(steps)
