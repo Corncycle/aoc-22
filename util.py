@@ -11,3 +11,8 @@ def charToNum(c):
         return ord(c) - 96
     else:
         return ord(c) - 64
+
+def tupsum(a, b):
+    if len(a) != len(b):
+        assert False
+    return tuple([a[i] + b[i] for i in range(len(a))])
