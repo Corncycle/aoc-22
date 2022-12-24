@@ -1,7 +1,7 @@
 import util
 
-# this solution runs pretty slow
-data = util.parseFileAs("./inputs/input.txt", str)
+# this solution runs pretty slow, run with pypy for it to complete in any decent time
+data = util.parseFileAs("./inputs/d24.txt", str)
 
 out = 0
 blizz = set()
